@@ -1,8 +1,6 @@
-# Delta Dore Tydom
+# Delta Dore
 
 [![License][license-shield]](LICENSE)
-
-[![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
 
 This a *custom component* for [Home Assistant](https://www.home-assistant.io/).
 
@@ -44,24 +42,6 @@ Platform | Description
 
 Some other functions may also work or only report attributes.
 
-## Installation
-
-The preferred way to install the Delta Dore Tydom integration is by addig it using HACS.
-
-Add your device via the Integration menu
-
-[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=deltadore_tydom)
-
-Manual method :
-
-1. Using the tool of choice open the directory (folder) for your HA configuration (where you find `configuration.yaml`).
-1. If you do not have a `custom_components` directory (folder) there, you need to create it.
-1. In the `custom_components` directory (folder) create a new folder called `deltadore_tydom`.
-1. Download _all_ the files from the `custom_components/deltadore_tydom/` directory (folder) in this repository.
-1. Place the files you downloaded in the new directory (folder) you created.
-1. Restart Home Assistant
-1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Delta Dore Tydom"
-
 ## Configuration is done in the UI
 
 <!---->
@@ -74,16 +54,3 @@ The Mac address is the Mac of you Tydom
 Email/Password are you Dela Dore credentials
 
 The alarm PIN is optional and used to set your alarm mode
-
-## Contributions are welcome!
-
-If you want to contribute to this please read the [Contribution guidelines](CONTRIBUTING.md)
-
-***
-
-[integration_blueprint]: https://github.com/CyrilP/hass-deltadore-tydom-component
-[buymecoffee]: https://www.buymeacoffee.com/cyrilp
-[buymecoffeebadge]: https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg?style=for-the-badge
-[exampleimg]: example.png
-[forum]: https://community.home-assistant.io/
-[license-shield]: https://img.shields.io/github/license/CyrilP/hass-deltadore-tydom-component.svg?style=for-the-badge
